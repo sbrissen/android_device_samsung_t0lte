@@ -34,6 +34,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_PACKAGES += \
     tiny_hw
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.smdk4x12
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.smdk4x12
